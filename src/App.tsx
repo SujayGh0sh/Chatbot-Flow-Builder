@@ -31,6 +31,10 @@ function App() {
           {/* Main canvas area */}
           <FlowCanvas />
         </div>
+        {/* Footer */}
+        <footer className="w-full text-center py-2 text-gray-500 text-sm">
+          2025 &copy; Made with <span role="img" aria-label="heart">❤️</span> by <a href="https://sujayghosh.in">Sujay Ghosh</a>
+        </footer>
       </div>
       <Toaster />
     </ReactFlowProvider>
